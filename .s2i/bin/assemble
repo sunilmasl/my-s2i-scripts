@@ -15,10 +15,11 @@ cp -Rf /tmp/src/*.html ./
 
 DATE=`date "+%Y-%m-%d"`
 
+
 echo "--> creating info page"
 
-echo "single code on git on $DATE" >> ./info.html
-echo "HTTP SERVER Version $HTTPD_VERSION" >> ./info.html
+echo "some text given in exam $DATE" >> ./info.html
+echo "Some test given in exam $HTTPD_VERSION" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
