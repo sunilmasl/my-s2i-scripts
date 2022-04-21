@@ -15,9 +15,9 @@ cp -Rf /tmp/src/*.html ./
 
 DATE=`date "+%Y-%m-%d"`
 
-echo "--> creating info page"
-echo "content given in exam $DATE" >> ./info.html
-echo "content given in exam $HTTPD_VERSION " >> ./info.html
+echo "-- creating info page"
+echo "content given exam $DATE" >> ./info.html
+echo "content given exam $HTTPD_VERSION" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
